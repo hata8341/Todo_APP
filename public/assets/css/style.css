@@ -1,0 +1,100 @@
+body {
+    width: 1200px;
+    background: darkblue;
+    display: flex;
+    justify-content: center;
+}
+main {
+    width: 610px;
+    background: white;
+    margin-top: 50px;
+    padding: 25px 0;
+    border-radius: 5px;
+}
+.todo-wrap {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.todo-wrap h2 {
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+
+div.input-todo > input[type="text"] {
+    width: 80%;
+    padding: 10px 0;
+    border-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.request-btn {
+    display: inline-block;
+    padding: 8px 14px;
+    background: white;
+    color: mediumpurple;
+    font-weight: bold;
+    border-color: mediumpurple;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-left: 40px;
+}
+
+.request-btn:hover {
+    color: white;
+    background: mediumpurple;
+    border-color: mediumpurple;
+}
+
+.todo-table {
+    width: 90%;
+    margin: 0 auto;
+}
+
+table th {
+    padding: 30px 0;
+}
+
+table td {
+    padding: 10px 10px;
+}
+
+td.todo-task > input[type="text"] {
+    width: 175px;
+    border-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 5px 0;
+}
+
+.create-btn {
+    padding: 8px 14px;
+    background: white;
+    color: lightsalmon;
+    font-weight: bold;
+    border-color: lightsalmon;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.create-btn:hover {
+    color: white;
+    background: lightsalmon;
+    border-color: lightsalmon;
+}
+
+.delete-btn {
+    padding: 8px 14px;
+    background: white;
+    color: aquamarine;
+    font-weight: bold;
+    border-color: aquamarine;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.delete-btn:hover {
+    color: white;
+    background: aquamarine;
+    border-color: aquamarine;
+}
